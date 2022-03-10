@@ -1,0 +1,275 @@
+:root {
+  --color-font: #808291;
+  --color-link: #a7a9b8;
+  --color-img-holder: #efefef;
+  --color-primary: #4869e8;
+  --color-gradient-start: #4762ff;
+  --color-gradient-stop: #ff798e;
+  --color-blue: #1869f4;
+  --text-black: #000;
+  --text-white: #fff;
+}
+
+@media (max-width: 480px) {
+  .portfolio-main-img {
+    top: 75% !important;
+  }
+  main {
+    margin-top: -120px;
+  }
+
+  .team .nav-link {
+    margin: 0;
+  }
+
+  .testimonial {
+    padding: 0;
+  }
+
+  .testimonial h5 {
+    font-size: 20px;
+  }
+
+  .logo-non-sticky {
+    width: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* .portfolio-main-section {
+    min-height: 60vh;
+  } */
+
+  /* .portfolio-main-section .container {
+    height: 70vh;
+  } */
+
+  .order-xm-2 {
+    order: 2;
+  }
+
+  .order-xm-1 {
+    order: 1;
+  }
+
+  .custom-btn-header {
+    font-size: 12px;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none !important;
+  }
+
+  .navbar-toggler,
+  .navbar-collapse {
+    order: 3;
+  }
+
+  .nav-custom {
+    background: var(--text-white);
+  }
+
+  .navbar-nav .nav-link {
+    color: var(--text-black) !important;
+    padding: 20px 0;
+  }
+
+  .service-title h1 {
+    font-size: 35px;
+  }
+
+  .service-title p {
+    font-size: 12px;
+  }
+
+  .portfolio-main-img {
+    top: 60%;
+  }
+
+  .proposal-form h2 {
+    font-size: 25px;
+  }
+
+  #footer-propsal .container {
+    padding: 0;
+  }
+
+  .proposal {
+    padding: 30px 0;
+  }
+
+  .proposal-form {
+    padding: 30px;
+    flex-basis: 80%;
+  }
+  .form-group {
+    margin: 10px 0 !important;
+  }
+
+  .fancy-title h2,
+  .shaping-vision h2,
+  .fancy-title-white h2 {
+    font-size: 25px;
+  }
+
+  .fancy-title {
+    padding: 0;
+  }
+
+  .footer-bt {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-social {
+    padding: 20px 0;
+  }
+
+  .how-we-build .steps-data {
+    flex-basis: auto;
+    padding: 2rem;
+  }
+
+  .how-we-build .steps-img {
+    flex-basis: auto;
+    height: 200px;
+  }
+
+  .how-we-build {
+    flex-direction: column;
+  }
+
+  .service-box2 {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .shaping-vision {
+    margin-bottom: 50px;
+  }
+
+  .main-section,
+  .video-background {
+    margin-top: 120px;
+  }
+
+  .about-feature,
+  .about-one {
+    padding: 3rem 0;
+  }
+
+  .about-pluton {
+    padding: 30px 0 !important;
+  }
+
+  .lh-sm {
+    margin-bottom: 20px;
+  }
+
+  .customers-logo img {
+    width: 45%;
+  }
+
+  .service-container {
+    height: auto;
+    padding: 3rem 0;
+  }
+
+  .development-service h2 {
+    font-size: 1.5rem;
+  }
+
+  .service-inner-title p {
+    padding: 0;
+  }
+
+  .portfolio-slider-details {
+    padding-right: 0 !important;
+    text-align: center;
+  }
+
+  .tools li img {
+    width: 40px;
+  }
+
+  .tools li p {
+    font-size: 10px;
+  }
+
+  .portfolio-carousel {
+    height: 800px;
+  }
+
+  .contact-topheader {
+    padding: 0 10px;
+  }
+
+  .topbar-icon i {
+    padding-right: 10px;
+  }
+
+  .locations {
+    height: 100vh;
+  }
+
+  .contact-form {
+    padding: 3rem 0;
+  }
+
+  #contact-form {
+    padding: 0;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .order-xm-2 {
+    order: 2;
+  }
+
+  .order-xm-1 {
+    order: 1;
+  }
+
+  .navbar-toggler,
+  .navbar-collapse {
+    order: 3;
+  }
+
+  .nav-custom {
+    background: var(--text-white);
+  }
+
+  .navbar-nav .nav-link {
+    color: var(--text-black) !important;
+    padding: 20px 0;
+  }
+
+  .main-section,
+  .video-background {
+    margin-top: 120px;
+  }
+
+  .shaping-vision {
+    margin-bottom: 50px;
+  }
+
+  .how-we-build .steps-data {
+    padding: 2rem;
+  }
+
+  .service-container {
+    height: auto;
+    padding: 3rem 0;
+  }
+  .proposal-form {
+    flex-basis: 90%;
+  }
+
+  .locations {
+    height: 100vh;
+  }
+
+  .contact-form {
+    padding: 3rem 0;
+  }
+}
